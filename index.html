@@ -53,6 +53,13 @@
 									<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Y6V-C48ghIy-tsOxYdhxjA.jpeg" alt="" class="image" /> <!-- Added the "image" class -->
 								</a>
 							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<h3>Data Entry App</h3>
+								<p>An R-Shiny-based data collection application used to gather participant data related to sleep quality assessment. This application facilitates capturing essential information such as participant IDs, demographic details, and baseline characteristics.</p>
+								<a class="image fit thumb" id="github-link2">
+									<img src="https://dynamic.placementindia.com/blog_images/20200721143858_image1.jpg" alt="" class="image" /> <!-- Added the "image" class -->
+								</a>
+							</article>
 						</div>
 						<ul class="actions">
 							<li><a href="https://github.com/fBoatengs" class="button" target="_blank">Full Portfolio</a></li>
@@ -134,6 +141,15 @@
 					imageLink.addEventListener("click", function(event) {
 						event.preventDefault(); // Prevents the default link behavior
 						window.open("https://fboatengs.shinyapps.io/sibs/", "_blank");
+					});
+				});
+				</script>
+		         <script>
+				document.addEventListener("DOMContentLoaded", function() {
+					var imageLink = document.getElementById("github-link2");
+					imageLink.addEventListener("click", function(event) {
+						event.preventDefault(); // Prevents the default link behavior
+						window.open("https://fboatengs.shinyapps.io/database/", "_blank");
 					});
 				});
 				</script>	
